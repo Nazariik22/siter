@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1024px;
+    overflow: hidden;
+    margin: auto;
+    background: rgba(216, 209, 203, 255);
+    position: relative;
+}
+
+.blok {
+    width: 612px;
+    height: 712px;
+    background: rgba(35, 39, 42, 255);
+    border-radius: 20px;
+    position: absolute;
+    transform: rotate(155deg);
+    top: -100px;
+    left: -200px;
+}
+
+.header {
+    position: relative;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.header1 .title {
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.header1 .text {
+    color: black;
+
+    letter-spacing: 2px;
+}
+
+.fa-bars {
+    background: rgba(35, 39, 42, 255);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 19px;
+}
+
+.header2 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.blok_img {
+    position: relative;
+}
+
+.blok_img .img1>img {
+    width: 220px;
+    margin-left: 100px;
+}
+
+.blok_img .img2>img {
+    width: 200px;
+}
+
+.blok_img .img3>img {
+    width: 350px;
+    position: absolute;
+    top: 170px;
+    left: 250px
+}
+
+.blok_img .img4>img {
+    width: 200px;
+
+}
+
+.header2>.container {
+    width: 350px;
+    margin: 150px 60px 0 0;
+
+    font-size: 18px;
+}
+
+.header2>.container .title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header2>.container .text {
+    margin: 20px 0;
+}
+
+.header2 .container>button {
+    padding: 10px 15px;
+    background: rgba(22, 24, 21, 255);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.header3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding-bottom: 30px;
+}
+
+.header3>.text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.header3 .text>span {
+    font-size: 14px;
+}
+
+.header3 .container {
+    display: flex;
+}
+
+.header3 .container>.text {
+    margin-left: 150px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fa-instagram {
+    font-size: 25px;
+    margin-right: 20px;
+}
